@@ -1,0 +1,14 @@
+﻿POST https://localhost:7014/passwords
+Content-Type: application/json
+
+{
+    "Site": "Teste de site",
+    "Username": "Lucas",
+    "Passwd":"123456"
+}
+
+###
+
+GET https://localhost:7014/passwords
+
+###
